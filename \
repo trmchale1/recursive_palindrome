@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+bool palindrome(string x){
+	bool palindrome = false;
+	if (x.length() == 0 || x.length() == 1){ return true;}
+	else{
+	
+	palindrome = palindrome(x.substr(0,1) == x.substr(0,x.length()-1));
+}
+}
+	
+}
+int main()
+{
+
+	return 0;
+}
